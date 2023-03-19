@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn:python3.10
+FROM tiangolo/uvicorn-gunicorn:python3.9
 
 ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
